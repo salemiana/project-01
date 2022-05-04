@@ -1,0 +1,90 @@
+:root {
+    
+    --border-radius: .3rem;
+  }
+.hero {
+    background-image: url("../img/youarewhatyoulistentoo4.jpg");
+    background-size: cover;
+}
+
+
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #f5885c;
+}
+/* CARDS */
+.card {
+    margin: 0 0 0 0;
+    border: 3px solid #f5885c;
+    border-radius: var(--border-radius);
+  }
+  
+  .card-header {
+    color: #ffffff;
+    background-color: #f5885c;
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+  }
+  
+  .card-body {
+    padding: 2.5%;
+  }
+  
+  /* FORM */
+  .form-label,
+  .form-input,
+  .form-textarea {
+    display: block;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    margin: 0 0 0 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 3%;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    border: 2px solid #f5885c;
+    border-radius: var(--border-radius);
+  }
+
+  .song-art {
+    height: 100px;
+    width: 100px;
+
+  }
+
+  .album-title {
+    color: #f5885c;
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: #f5885c;
+    color: #ffffff;
+    border: 2px solid #f5885c;
+  }
+
+
+
+  p {
+    color: #f5885c;
+    font-weight: bold;
+}
+
+.history-scrollable {
+  position: relative;
+  max-height: calc(100vh - 142px); 
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.hero-body{
+font-family:cursive;
+text-align: center;
+}
